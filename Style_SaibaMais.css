@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: 'sans-serif';
+    margin: 0;
+    background-color: #121212;
+    color: #D9D9D9;
+}
+header{
+    background-color: #181818;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+#dezenflixh2 {
+    padding: -50px;
+    display: flex;
+    padding-left: 10px;
+    color: #D9D9D9;
+}
+#Deedpol {
+    padding-right: 150px;
+    position: relative;
+}
+#Voltar {
+    color: #E50914;
+}
+header .logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header::before {
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #D9D9D9;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+main {
+    padding-top: 40px;
+    flex: 1;
+}
+
+img {
+    padding: 50px;
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #363636;
+}
+
+img.logo {
+    size: 20px;
+    margin-top: 0px;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+img:not(.logo):hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #E50914;
+}
+
+footer {
+    background-color: #181818;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+div {
+    text-align: center;
+    color: #D9D9D9;
+}
+
+p {
+    color: #D9D9D9;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF4C4C;
+}
+
+a {
+    text-decoration: none;
+    color: #E50914;
+}
+
+
+
+
